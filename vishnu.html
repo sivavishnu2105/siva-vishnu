@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Happy Birthday!</title>
-  <style>
-    .birthday-container {
+	<title>Audio Output</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="audio-container">
+		<audio controls>
+			<source src="https://www.w3schools.com/jsref/horse.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio>
+	</div>
+</body>
+</html>
+
+.audio-container {
 	width: 50%;
 	margin: 40px auto;
 	text-align: center;
+}
+
+audio {
+	width: 100%;
+	height: 40px;
+	border: none;
 	background-color: #f0f0f0;
-	padding: 20px;
-	border: 1px solid #ddd;
+	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.birthday-image {
-	width: 100%;
-	height: 500px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	object-fit: cover;
-}
-
-.birthday-title {
-	font-size: 36px;
-	color: #333;
-	margin-bottom: 20px;
-	font-weight: bold;
-}
-
-.birthday-message {
-	font-size: 18px;
-	color: #666;
-	margin-bottom: 40px;
-}
-  </style>
-</head>
-<body>
-	<div class="birthday-container">
-		<img src="WO-MEN.jpg" alt="Happy Birthday" class="birthday-image">
-		<h1 class="birthday-title">Happy Womens Day To All The Women!</h1>
-		<p class="birthday-message"> WO-MEN! THANK YOU...</p>
-	</div>
-</body>
-</html>
